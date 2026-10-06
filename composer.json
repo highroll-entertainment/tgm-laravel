@@ -1,0 +1,52 @@
+{
+    "name": "terragaming/laravel-ads",
+    "description": "TerraGaming Media ads for Laravel: Blade components for the site tag and ad units.",
+    "type": "library",
+    "license": "MIT",
+    "keywords": [
+        "laravel",
+        "blade",
+        "ads",
+        "advertising",
+        "terragaming"
+    ],
+    "homepage": "https://help.terragamingmedia.com/publishers/install/laravel/",
+    "require": {
+        "php": "^8.2",
+        "illuminate/support": "^11.0 || ^12.0 || ^13.0",
+        "illuminate/view": "^11.0 || ^12.0 || ^13.0"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^9.0 || ^10.0 || ^11.0",
+        "phpunit/phpunit": "^11.0 || ^12.0 || ^13.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "TerraGaming\\Ads\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "TerraGaming\\Ads\\Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "TerraGaming\\Ads\\TgmServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "stable",
+    "scripts": {
+        "test": "phpunit"
+    },
+    "support": {
+        "issues": "https://github.com/highroll-entertainment/tgm-laravel/issues",
+        "source": "https://github.com/highroll-entertainment/tgm-laravel",
+        "docs": "https://help.terragamingmedia.com/publishers/install/laravel/"
+    }
+}
