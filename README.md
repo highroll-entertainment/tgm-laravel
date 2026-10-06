@@ -28,7 +28,7 @@ Directives: `@tgmSiteTag` and `@tgmAd('TGM-ABC-HRS01')`. In-article ads are auto
 - **CSP:** the site tag carries `Vite::cspNonce()` (or spatie/laravel-csp's nonce), or pass
   `<x-tgm-site-tag nonce="…" />`.
 - **Inertia:** keep `<x-tgm-site-tag />` in `app.blade.php` and place units with
-  `@terragaming/ads-react` or `@terragaming/ads-vue`.
+  `@terragamingmedia/ads-react` or `@terragamingmedia/ads-vue`.
 - **Livewire `wire:navigate` / Turbo:** navigation is detected by the tag; wrap the floating unit in
   `@persist('tgm-floating')`.
 - `TGM_ENABLED=false` renders nothing; `TGM_SPA=manual` leaves page views to you.
