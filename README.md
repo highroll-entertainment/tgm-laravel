@@ -43,7 +43,8 @@ composer install
 vendor/bin/phpunit
 ```
 
-CI runs the tests on Laravel 11, 12 and 13. Releases: push a `v<x.y.z>` tag; Packagist picks it up
+CI runs the tests on Laravel 12 (PHP 8.2 and 8.3) and 13 (PHP 8.4). Laravel 11 is no longer
+supported: its security support has ended and every release has open security advisories. Releases: push a `v<x.y.z>` tag; Packagist picks it up
 from this repository.
 
 ## Licence
