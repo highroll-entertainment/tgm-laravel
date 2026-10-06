@@ -1,5 +1,5 @@
 {
-    "name": "terragaming/laravel-ads",
+    "name": "terragamingmedia/laravel-ads",
     "description": "TerraGaming Media ads for Laravel: Blade components for the site tag and ad units.",
     "type": "library",
     "license": "MIT",

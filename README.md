@@ -1,10 +1,10 @@
-# terragaming/laravel-ads
+# terragamingmedia/laravel-ads
 
 [TerraGaming Media](https://terragamingmedia.com) ads for Laravel: Blade components for the site
 tag and ad units.
 
 ```bash
-composer require terragaming/laravel-ads
+composer require terragamingmedia/laravel-ads
 ```
 
 ```bash
